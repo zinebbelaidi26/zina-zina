@@ -1,0 +1,110 @@
+name: projet_signe
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using flutter pub publish. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  lottie: ^2.7.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  flutter_tts: ^4.2.2
+  speech_to_text: ^7.0.0
+  supabase_flutter: ^2.8.4
+  flutter_svg : ^2.0.7 # Use the latest version if available 
+  google_fonts: ^6.2.1
+  google_generative_ai: ^0.4.6
+  connectivity_plus: ^5.0.2
+  video_player: ^2.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices.
+  flutter_lints: ^5.0.0
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/videos/
+    - images/edf.PNG
+    - images/photo1.jpg
+    - images/photo2.jpg
+    - images/photo3.jpg
+    - images/jhgvc.PNG
+    - images/zin.jpg
+    - images/zina.jpg
+    - images/photo.png
+    - images/photo2.webp
+    - images/avatar1.jpg
+    - images/avatar2.avif
+    - images/avatar3.webp
+    - images/avatar4.avif
+    - images/avatar5.png
+    - images/avatar6.avif
+    - images/avatar7.webp
+    - images/avatar8.avif
+    - images/avatar9.jpeg
+    - images/avatar10.jpeg
+    - images/avatar11.avif
+    - images/avatar12.avif
+    - images/avatar13.jpeg
+    - images/hello.png
+    - images/personne1.jpg
+    - images/ZINEB 4.jpg
+    - images/vds.PNG
+    - images/mn.PNG
+    - images/n.PNG
+    - images/ko.PNG
+    - images/sf.PNG
+    - images/forget.PNG
+    - images/verifier.PNG
+       
+    - images/yes.jpeg  
+    - images/THANK.jpeg
+    - images/q2.png 
+    - images/plaise.png
+    - images/OIP (1).jpeg
+    - images/MAM.jpeg
+    - images/help.webp
+    - images/dont_like.gif
+    - images/dad.gif
+    - images/PLAY.jpeg
+    - images/wedensday.PNG
+    - images/tusday.PNG
+    - images/thursday.PNG
+    - images/sunday1.png
+    - images/saturday.jpg
+    - images/monday1.jpg
+    - images/friday.jpg
+    - images/CHAT.jpeg
+    - assets/alphabets/
+    - images/chat.png
+    - assets/days/
+    
+    
+      
+  # To add custom fonts to your application, add a fonts section here:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
